@@ -1,0 +1,107 @@
+body{
+	background-color: #336699;
+	background-image: url();
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+main{
+	background-image: url();
+	
+}
+header{
+	background-color: #999999;
+	margin-top: -22px;
+	margin-bottom: 40px;
+	margin-left: -8px;
+	padding-bottom: 20px;
+	padding: 0px 5px 0px 10px;
+	width: 100%;
+}
+h1{
+	color: white;
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.flex-container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+#inpt{
+	display: none;
+
+}
+#info{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-top: -20px;
+}
+#but-1{
+	position: absolute;
+	display: none;
+	width: 200px;
+	height: 100px;
+	border: 2px solid black;
+	font-size: 20px;
+}
+#but-1:active{
+	border: 2px solid gray;
+	background-color: #999999;
+}
+
+#but-2{
+	position: absolute;
+	bottom: 10px;
+	border: 2px solid black;
+	width: 200px;
+	height: 100px;
+	display: none;
+	font-size: 20px;
+}
+#but-2:active{
+	border: 2px solid gray;
+	background-color: #999999;
+}
+
+#but-3{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	font-size: 20px;
+	border: 2px solid black;
+	width: 200px;
+	height: 100px;
+	display: none;
+}
+#but-3:active{
+	border: 2px solid gray;
+	background-color: #999999;
+}
+
+#but-4{
+	font-size: 20px;
+	border: 2px solid black;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	width: 200px;
+	height: 100px;
+	display: none;
+}
+#but-5{
+	display: none;
+	style :none;
+	position: absolute;
+	width: ;
+	height: ;
+	color: ;
+	background-color: ;
+	border: none;
+}
